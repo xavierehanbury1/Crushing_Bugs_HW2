@@ -1,0 +1,5 @@
+Despite my absolute best efforts and speaking with my tutor I could not figure out the second bug. I did, however, fix the first. My life has been incredibly perilous and stressful lately, and apparently my tutor has no experience in Javascript, so I was somewhat backed into a corner. I apologize, as I did my honest best, but I just couldn't do it. There is evidence of how hard I tried within the code itself however and even a failed solution or two I tried in this folder. 
+
+With respects,
+
+Xaviere Hanbury.
