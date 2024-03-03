@@ -18,14 +18,28 @@ let theButtons = document.querySelectorAll("#buttonHolder img"),
 // step 3
 // functionality always goes in the middle -> how do we want
 // the app to behave?
-//function changeBGImage() {
+function changeBGImage() {
 	// the `` is a JavaScript template string. It tells the JS enging to evaluate the expression
 	// inside the braces - run that little bit of code. In this case it's just pulling the ID of the
 	// button we clicked on and putting it at the end of the image name (0, 1, 2, 3)
 	// and updating the background-image style of the puzzle board element.
-	
+	//if (theButtons.includes('url(images/backGround${this.id}.jpg)')) 
+	//If the background image includes 'x', do something.
+	//if (theButtons) {
+    //theButtons.addEventListener("click" + theButtonsID)
+	//If the background image includes 'x', do something.
+	//console.log("The button ID is:", ID);
+//}
+	//else  {
+	//console.log("No number found in the filename.")
+	//}
 	// bug fix #2 should go here. it's at most 3 lines of JS code.
-	//puzzleBoard.style.backgroundImage = `url(images/backGround${this.id}.jpg)`;
+	puzzleBoard.style.backgroundImage = `url(images/backGround${this.id}.jpg)`;
+}
+
+//Solution Test #1: Background IMG number.
+//function changeBGImage() {
+//If puzzle-board is X, (0,1,2,3) then change puzzle-pieces number to match.
 //}
 
 function handleStartDrag() { 
